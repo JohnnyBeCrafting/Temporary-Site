@@ -22,7 +22,8 @@
 
 h1,
 h2,
-h3{
+h3,
+span{
     font-family: 'New York', 'Times New Roman', Times, serif;
 }
 .jumbo{
@@ -31,7 +32,7 @@ h3{
 .inline{
     display: inline;
 }
-p, span{
+p{
     font-size: 1.25em;
     font-family: 'Avenir', Arial, Helvetica, sans-serif;
 }
