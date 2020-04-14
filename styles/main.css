@@ -1,0 +1,37 @@
+/* Fonts */
+@font-face {
+    font-family: 'Avenir';
+    src: url('../assets/fonts/AvenirLTStd-Book.otf');
+  }
+  @font-face {
+    font-family: 'New York';
+    src: url('../assets/fonts/NewYorkLarge-Regular.otf');
+  }
+
+  html, body{
+      height: 100vh;
+  }
+.main{
+    max-width: 45em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'New York', 'Times New Roman', Times, serif;
+}
+.jumbo{
+    font-size: 5.063em;
+}
+.inline{
+    display: inline;
+}
+p, span{
+    font-size: 1.25em;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
+}
